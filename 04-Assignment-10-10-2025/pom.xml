@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.2.4</version>
+  </parent>
+  <groupId>com.prabhas</groupId>
+  <artifactId>04-Assignment-10-10-2025</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+  <name>03-Assignment-10-10-2025</name>
+  <description>Techademy Assignment 4 assigned to us:Design and implement a two Spring Boot based Microservices that communicate asynchronously REST  API calls. When an order is created in Order Service, it should send an HTTP request to the Product Service to get the product details before confirming the order.</description>
+  <modules>
+  	<module>producer-service</module>
+  	<module>order-service1</module>
+  </modules>
+</project>
