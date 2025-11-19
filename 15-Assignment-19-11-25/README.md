@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Enter this command at first. NodeJs should be installed in your local system.\
+Enter this command at first. NodeJs should be installed in your local system.
 
 ### `npm start`
 
